@@ -10,16 +10,16 @@ This paper develops a novel topic evolution analysis framework, which we use to 
 </div>
 
 **This repository contains the code to reproduce the reults of our paper:**  
-(1) *Extract_cs_data.py* -> collect and preprocess the data from the MAG dataset. (The MAG dataset can be downloaded from https://www.aminer.cn/oag-2-1)  
-(2) *vec_by_bert.py* -> generate the topic embeddings via BERT model; A decoder is trained to decode embeddings to fos.   
-(3) *vec_by_mpnet.py* -> generate the topic embeddings via MPNET model; A decoder is trained to decode embeddings to fos. (The MPNET model can be downloaded from https://www.sbert.net).  
+(1) Extract_cs_data.py -> collect and preprocess the data from the MAG dataset. (The MAG dataset can be downloaded from https://www.aminer.cn/oag-2-1)  
+(2) vec_by_bert.py -> generate the topic embeddings via BERT model; A decoder is trained to decode embeddings to fos.   
+(3) vec_by_mpnet.py -> generate the topic embeddings via MPNET model; A decoder is trained to decode embeddings to fos. (The MPNET model can be downloaded from https://www.sbert.net).  
 <p align="center">
   <img src="https://github.com/WannaLearning/Demonstrating-Forecasting-and-Explaining-Topic-Evolution/blob/main/Figures-git/Figure%202.png" width="45%" alt="Topic embedding generation process"/>
 </p>
 <div align="center">
   Figure 2 Topic embedding generation process
 </div>
-(4). *Semantic_Movement_Verify.py* -> Section 3.2	Demonstrating the motion of topic embeddings via SVM, as shown in Figure 3.  
+(4) Semantic_Movement_Verify.py -> Section 3.2	Demonstrating the motion of topic embeddings via SVM, as shown in Figure 3.  
 <p align="center">
   <img src="https://github.com/WannaLearning/Demonstrating-Forecasting-and-Explaining-Topic-Evolution/blob/main/Figures-git/Figure%2010-body%20of%20knowledge.png" width="25%" alt=""/>
   <img src="https://github.com/WannaLearning/Demonstrating-Forecasting-and-Explaining-Topic-Evolution/blob/main/Figures-git/Figure%2010-information%20processing.png" width="25%" alt=""/>
@@ -28,14 +28,14 @@ This paper develops a novel topic evolution analysis framework, which we use to 
 <div align="center">
   Figure 3 Topic embedding movement
 </div>
-(5). *Semantic_Movement_Predict.py* -> Section 3.3 Forecasting motion via vector regression models, as shown in Figure 4.
+(5) Semantic_Movement_Predict.py -> Section 3.3 Forecasting motion via vector regression models, as shown in Figure 4.
 <p align="center">
   <img src="https://github.com/WannaLearning/Demonstrating-Forecasting-and-Explaining-Topic-Evolution/blob/main/Figures-git/Figure%203.png" width="30%" alt="Topic embedding prediction process"/>
 </p>
 <div align="center">
   Figure 4 Topic embedding prediction process
 </div>
-(6) *Semantic_Movement_Explain.py* -> Section 3.4 Explaining forecast motion via a text generation model, as shown in Figure 5
+(6) Semantic_Movement_Explain.py -> Section 3.4 Explaining forecast motion via a text generation model, as shown in Figure 5
 <p align="center">
   <img src="https://github.com/WannaLearning/Demonstrating-Forecasting-and-Explaining-Topic-Evolution/blob/main/Figures-git/Figure%204.png" width="45%" alt="Explaining the predicted embeddings with predictive decoder"/>
 </p>
