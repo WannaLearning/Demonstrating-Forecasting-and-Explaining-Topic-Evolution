@@ -7,3 +7,5 @@ This repository contains the code to reproduce the reults of our paper:
 4. Semantic_Movement_Verify.py -> Section 3.2	Demonstrating the motion of topic embeddings via SVM.
 5. Semantic_Movement_Predict.py -> Section 3.3 Forecasting motion via vector regression models.
 6. Semantic_Movement_Explain.py -> Section 3.4Explaining forecast motion via a text generation model.
+
+![image text](https://github.com/WannaLearning/Demonstrating-Forecasting-and-Explaining-Topic-Evolution/blob/main/Figures-git/Figure%201.png "Problem definition")
