@@ -459,13 +459,13 @@ def create_fos_co_matrix():
 #%%
 if __name__ == "__main__":
     # 从OAG官网下载的原始数据: http://www.aminer.cn/oag-2-1
-    # 根据fos == computer science筛选处cs领域论文
+    # 根据fos == computer science筛选处cs领域论文, 并储存在mag_papers_{}.txt
     Fos_file_1     = "/mnt/disk2/MAG_DATA_SET/FieldsOfStudy.nt"
     Fos_file_2     = "/mnt/disk2/MAG_DATA_SET/FieldOfStudyChildren.nt"
-    file_content_i = "/mnt/disk2/MAG_DATA_SET/MAGv2.1-abstract-cs/mag_papers_{}"
+    file_content_i = "/mnt/disk2/MAG_DATA_SET/MAGv2.1-abstract-cs/mag_papers_{}.txt"
     file_fos_i     = "/mnt/disk2/MAG_DATA_SET/MAGv2.1-meta-computer science/mag_papers_{}.txt"
     
-    # 挑选特定 FoS_Level3
+    # 根据Fos_file_2, 挑选特定 FoS_Level
     fos_L2 = 'all'
     T0 = 1900
     T1 = 2000
