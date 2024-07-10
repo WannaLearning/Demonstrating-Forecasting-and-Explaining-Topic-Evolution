@@ -13,8 +13,10 @@ This paper develops a novel topic evolution analysis framework, which we use to 
 (1) *Extract_cs_data.py* ->  
 &ensp;&ensp;&ensp;collect and preprocess the data from the MAG dataset.  
 &ensp;&ensp;&ensp;(The MAG dataset can be downloaded from https://www.aminer.cn/oag-2-1)  
+&ensp;&ensp;&ensp;The papers in the computer science field can be extracted from the MAG dataset by fos == "Computer science".  
+&ensp;&ensp;&ensp;"field of study"(fos) are generated in the MAG dataset.  
 (2) *vec_by_bert.py* ->  
-&ensp;&ensp;&ensp;generate the topic embeddings via BERT model; A decoder is trained to decode embeddings to fos (field of study generated in the MAG dataset).   
+&ensp;&ensp;&ensp;generate the topic embeddings via BERT model; A decoder is trained to decode embeddings to fos.   
 (3) *vec_by_mpnet.py* ->  
 &ensp;&ensp;&ensp;generate the topic embeddings via MPNET model; A decoder is trained to decode embeddings to fos.  
 &ensp;&ensp;&ensp;(The MPNET model can be downloaded from https://www.sbert.net).  
