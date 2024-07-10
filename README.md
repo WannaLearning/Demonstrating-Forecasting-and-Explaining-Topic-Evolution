@@ -59,4 +59,4 @@ This paper develops a novel topic evolution analysis framework, which we use to 
 </div>  
 
 (7) ***FieldOfStudyChildren.zip***  
-&ensp;&ensp;&ensp;contains the fos level data, which can be used to identify fos_level2.
+&ensp;&ensp;&ensp;Contains the fos level data, which can be used to identify fos_level2.
