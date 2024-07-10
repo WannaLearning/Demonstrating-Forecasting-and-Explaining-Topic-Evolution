@@ -19,8 +19,8 @@ This paper develops a novel topic evolution analysis framework, which we use to 
 (2) ***vec_by_bert.py***  
 &ensp;&ensp;&ensp;Generate the topic embeddings via BERT model; A decoder is trained to decode embeddings to fos.   
 (3) ***vec_by_mpnet.py***  
-&ensp;&ensp;&ensp;generate the topic embeddings via MPNET model; A decoder is trained to decode embeddings to fos.  
-&ensp;&ensp;&ensp;(The MPNET models can be downloaded from https://www.sbert.net).  
+&ensp;&ensp;&ensp;Generate the topic embeddings via MPNET model; A decoder is trained to decode embeddings to fos.  
+&ensp;&ensp;&ensp;The MPNET models can be downloaded from https://www.sbert.net.  
 
 <p align="center">
   <img src="https://github.com/WannaLearning/Demonstrating-Forecasting-and-Explaining-Topic-Evolution/blob/main/Figures-git/Figure%202.png" width="45%" alt="Topic embedding generation process"/>
