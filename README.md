@@ -14,7 +14,7 @@ This paper develops a novel topic evolution analysis framework, which we use to 
 &ensp;&ensp;&ensp;collect and preprocess the data from the MAG dataset.  
 &ensp;&ensp;&ensp;(The MAG dataset can be downloaded from https://www.aminer.cn/oag-2-1)  
 (2) *vec_by_bert.py* ->  
-&ensp;&ensp;&ensp;generate the topic embeddings via BERT model; A decoder is trained to decode embeddings to fos.   
+&ensp;&ensp;&ensp;generate the topic embeddings via BERT model; A decoder is trained to decode embeddings to fos (field of study generated in the MAG dataset).   
 (3) *vec_by_mpnet.py* ->  
 &ensp;&ensp;&ensp;generate the topic embeddings via MPNET model; A decoder is trained to decode embeddings to fos.  
 &ensp;&ensp;&ensp;(The MPNET model can be downloaded from https://www.sbert.net).  
@@ -53,4 +53,7 @@ This paper develops a novel topic evolution analysis framework, which we use to 
 </p>
 <div align="center">
   Figure 5 Explaining the predicted embeddings with predictive decoder
-</div>
+</div>  
+
+(7) *FieldOfStudyChildren.zip* ->  
+&ensp;&ensp;&ensp;contains the fos level data, which can be used to identify fos_level2.
